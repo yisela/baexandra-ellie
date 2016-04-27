@@ -1,21 +1,26 @@
 # baexandra-bot
-Introducing Baexandra, an onboarding bot based on Ellie-slack. Ellie is Slack's Python-based [real-time messaging bot](https://github.com/slackhq/python-rtmbot) wrapped around  Daniel Connelly's [Python implementation](https://github.com/dhconnelly/paip-python) of Peter Norvig's *Paradigms of AI Programming* Eliza.
+Introducing Baexandra, an onboarding bot based on [Ellie](https://github.com/christinac/ellie-slack/tree/master/plugins/ellie). Ellie is Slack's Python-based [real-time messaging bot](https://github.com/slackhq/python-rtmbot) wrapped around  Daniel Connelly's [Python implementation](https://github.com/dhconnelly/paip-python) of Peter Norvig's *Paradigms of AI Programming* Eliza.
 
-Baexandra's role is to onboard new team members through instructions, references and replies.
+Baexandra's role is to onboard new team members through instructions, references and automatic replies. Existing team members can teach Baexandra how to best reply to the usual questions about the project. 
 
-### Baexandra's customisations
-All dialog will be executed in the file baexandra.py
+Current implementation: baexandra replies to easy questions
+Future: Reference files, links, integrate with Slack API
+
+### Baexandra's replies
+All dialog lives in the file baexandra.py
+TO DO: Change references from Ellie to Baexandra
 
 ### Dependencies
 * [websocket-client](https://pypi.python.org/pypi/websocket-client/)
 * [python-slackclient](https://github.com/slackhq/python-slackclient)
 
-### Installation
-1. Download Ellie/Baexandra
+### Installation (NOT YET IMPLEMENTED)
 
+1. Download Baexandra
+ (NOT YET IMPLEMENTED)
   ````
-  git clone git@github.com:christinac/ellie-slack.git
-  cd ellie-slack
+  git clone git@github.com/yisela/baexandra.git
+  cd baexandra-slack
   ````
 
 2. Install dependencies
@@ -32,11 +37,8 @@ All dialog will be executed in the file baexandra.py
   SLACK_TOKEN: "xoxb-11111111111-222222222222222"
   ````
 
-4. Run it! (You've got to keep her running so long as you'd like her to keep chattering; something like [nohup](http://linux.die.net/man/1/nohup) might be helpful.)
+4. Run it! (Baexandra needs to be kept running to work, something like [nohup](http://linux.die.net/man/1/nohup) might be helpful.)
 
 ````
   python rtmbot.py
 ````
-
-## (Original) Ellie in action
-![Ellie in action](screenshot.png)
