@@ -26,6 +26,24 @@ rules = {
         "It's sweet of you to ask. How can I help you?",
         ],
         
+    # what do you do
+    "?*x what do you do?": [
+        "I am an onboarding bot, I can help you get started here."
+        "I am an onboarding bot, I'll be happy to help you with any questions you have."
+        ],
+    "?*x who are you?": [
+        "I am an onboarding bot, I can help you get started here."
+        "I am an onboarding bot, I'll be happy to help you with any questions you have."
+        ],
+    "?*x what's your job?": [
+        "I am an onboarding bot, I can help you get started here."
+        "I am an onboarding bot, I'll be happy to help you with any questions you have."
+        ],
+    "?*x what is your job?": [
+        "I am an onboarding bot, I can help you get started here."
+        "I am an onboarding bot, I'll be happy to help you with any questions you have."
+        ],
+        
     # baexandra is a bot?
     "?*x bot ?*y": [
         "If I were a bot, would you be worried?",
