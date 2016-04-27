@@ -1,5 +1,5 @@
 # baexandra-bot
-Introducing Baexandra, an onboarding bot based on [Ellie](https://github.com/christinac/ellie-slack/tree/master/plugins/ellie). Ellie is Slack's Python-based [real-time messaging bot](https://github.com/slackhq/python-rtmbot) wrapped around  Daniel Connelly's [Python implementation](https://github.com/dhconnelly/paip-python) of Peter Norvig's *Paradigms of AI Programming* Eliza.
+Introducing Baexandra, an onboarding bot inspired on [Ellie](https://github.com/christinac/ellie-slack/tree/master/plugins/ellie). Ellie is Slack's Python-based [real-time messaging bot](https://github.com/slackhq/python-rtmbot) wrapped around  Daniel Connelly's [Python implementation](https://github.com/dhconnelly/paip-python) of Peter Norvig's *Paradigms of AI Programming* Eliza.
 
 Baexandra's role is to onboard new team members through instructions, references and automatic replies. Existing team members can teach Baexandra how to best reply to the usual questions about the project. 
 
