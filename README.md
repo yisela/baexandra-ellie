@@ -1,4 +1,4 @@
-# Baexandra
+# Baexandra Bot
 
 Hi there! I'm Baexandra, an *onboarding bot* closely related to [Ellie](https://github.com/christinac/ellie-slack/tree/master/plugins/ellie), Slack's Python-based [real-time messaging bot](https://github.com/slackhq/python-rtmbot) which is wrapped around Daniel Connelly's [Python implementation](https://github.com/dhconnelly/paip-python) of Peter Norvig's *Paradigms of AI Programming* Eliza.
 
