@@ -6,11 +6,23 @@ Hi there! I'm Baexandra, an *onboarding bot* closely related to [Ellie](https://
 
 I currently only reply to simple questions, but I hope I can soon provide references to files, sites and integrate with the Slack API. 
 
---
 
 ## How to educate Baexandra
 
-Add new dialogs and replies by pulling, editing and pushing requests for  [baexandra.py](https://github.com/yisela/baexandra/blob/master/plugins/ellie/baexandra.py). 
+Users are encouraged to teach Baexandra anything they consider relevant. The way to do this is by pulling, editing and pushing requests for the file [baexandra.py](https://github.com/yisela/baexandra/blob/master/plugins/ellie/baexandra.py). 
+
+You can create new dialog options and replies by using this format (you can just copy and paste from a previous one):
+
+````
+"?*x hey ?*y": [
+        "Hey! I'm Baexandra, but you can call me Bae.",
+        "Hey! I'm Baexandra, nice to meet you."
+        ],
+
+?*x  =  Start new question/dialog
+?*y  =  Equivalent of "*" for filling in content
+,    =  Multiple answers
+````
 
 
 ## How to install Baexandra 
