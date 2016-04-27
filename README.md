@@ -2,7 +2,7 @@
 
 Hi there! I'm Baexandra, an *onboarding bot* closely related to [Ellie](https://github.com/christinac/ellie-slack/tree/master/plugins/ellie), Slack's Python-based [real-time messaging bot](https://github.com/slackhq/python-rtmbot) which is wrapped around Daniel Connelly's [Python implementation](https://github.com/dhconnelly/paip-python) of Peter Norvig's *Paradigms of AI Programming* Eliza.
 
-**My role is to onboard new team members through instructions, references and automatic replies that I learn from other people in the company (yes, I used that *other* fully aware of the implications. Who needs a body, anyway?)**. 
+**My role is to onboard new team members through instructions, references and automatic replies that I learn from other people in the company (yes, I used the word *other* i nfull awareness of the implications. What, you need a body now to be a person?)**. 
 
 Feel free to teach me what you know! While I appreciate wittiness and a certain sense of humanity, please do not turn me into one of those racist bots. 
 
