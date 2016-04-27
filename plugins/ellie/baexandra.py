@@ -3,6 +3,7 @@ import sys
 import json
 import sys
 import eliza
+import ellie
 
 rules = {
     "?*x hey ?*y": [
