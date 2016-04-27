@@ -1,27 +1,25 @@
-# baexandra-bot
-Introducing Baexandra, an onboarding bot inspired on [Ellie](https://github.com/christinac/ellie-slack/tree/master/plugins/ellie). Ellie is Slack's Python-based [real-time messaging bot](https://github.com/slackhq/python-rtmbot) wrapped around  Daniel Connelly's [Python implementation](https://github.com/dhconnelly/paip-python) of Peter Norvig's *Paradigms of AI Programming* Eliza.
+# Baexandra
 
-Baexandra's role is to onboard new team members through instructions, references and automatic replies. Existing team members can teach Baexandra how to best reply to the usual questions about the project. 
+Hi there! I'm Baexandra, an *onboarding bot* closely related to [Ellie](https://github.com/christinac/ellie-slack/tree/master/plugins/ellie), Slack's Python-based [real-time messaging bot](https://github.com/slackhq/python-rtmbot) which is wrapped around Daniel Connelly's [Python implementation](https://github.com/dhconnelly/paip-python) of Peter Norvig's *Paradigms of AI Programming* Eliza.
 
-Current implementation: baexandra replies to easy questions
-Future: Reference files, links, integrate with Slack API
+My role is to onboard new team members through instructions, references and automatic replies that I learn from people in the company. Feel free to teach me what you know by editing and making a push request for  [baexandra.py](https://github.com/yisela/baexandra/blob/master/plugins/ellie/baexandra.py). While I appreciate wittiness and a certain sense of humanity, please do not turn me into one of those racist bots. 
 
-### Baexandra's replies
-All dialog lives in the file baexandra.py
-TO DO: Change references from Ellie to Baexandra
+I currently only reply to simple questions, but I hope I can soon provide references to files, sites and integrate with the Slack API. 
+
+## How to educate Baexandra
+
+Add new dialogs and replies by pulling, editing and pushing requests for  [baexandra.py](https://github.com/yisela/baexandra/blob/master/plugins/ellie/baexandra.py). 
+
+
+## How to install Baexandra 
 
 ### Dependencies
 * [websocket-client](https://pypi.python.org/pypi/websocket-client/)
 * [python-slackclient](https://github.com/slackhq/python-slackclient)
 
-### Installation (NOT YET IMPLEMENTED)
+NOTE: Baexandra is not finished, so she will probably NOT work at this point. 
 
 1. Download Baexandra
- (NOT YET IMPLEMENTED)
-  ````
-  git clone git@github.com/yisela/baexandra.git
-  cd baexandra-slack
-  ````
 
 2. Install dependencies
 
